@@ -59,6 +59,7 @@
 #define L_TONE3   49
 
 #define L_CONFIG  50
+#define L_NORMAL  51
 
 / {
     keymap {
