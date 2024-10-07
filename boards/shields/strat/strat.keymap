@@ -58,6 +58,8 @@
 #define L_TONE2   48
 #define L_TONE3   49
 
+#define L_CONFIG  50
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -495,19 +497,21 @@
         };
 
 
-        tone0_layer { // Layer 1
+
+
+        tone0_layer {
             bindings = <
-                &none &none &none &none &none &none &none &none &none &none &none &none &none &none
-                &none &none &none &none &none &none &none &none &none &none &none &none &none
-                &none &none &none &none &none &none &none &none &none &none &none &none
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 
-                &none &none
-                &none &none
-                &none &none
+                &trans &trans
+                &trans &trans
+                &trans &trans
 
-                &none &none &none &none &none
-                &none
-                &none &none &none &none
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
             >;
         };
 
@@ -545,17 +549,33 @@
 
         tone3_layer {
             bindings = <
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
 
-                &trans &trans
-                &trans &trans
-                &trans &trans
+                &none &none
+                &none &none
+                &none &none
 
-                &trans &trans &trans &trans &trans
-                &trans
-                &trans &trans &trans &trans
+                &none &none &none &none &none
+                &none
+                &none &none &none &none
+            >;
+        };
+
+        config_layer {
+            bindings = <
+                &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+
+                &bt BT_NXT &bt BT_PRV
+                &bt BT_NXT &bt BT_PRV
+                &bt BT_NXT &bt BT_PRV
+
+                &none &none &none &none &none
+                &bt BT_CLR
+                &none &none &none &none
             >;
         };
 
