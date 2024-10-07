@@ -12,6 +12,7 @@
 #define L_PU2      7
 #define L_PU3      8
 #define L_PU4      9
+#define L_TAB      10
 
 
 / {
@@ -30,9 +31,138 @@
 
                 &kp LC(LALT) &kp LCTRL    &none        &kp RALT     &kp RWIN
                 &kp C_MUTE
-                &kp LSHIFT   &mo L_TONE2  &mo L_TONE1  &mo L_TONE0
+                &kp LSHIFT   &mo L_TONE1  &mo L_TONE2  &mo L_TONE3
             >;
         };
+
+        tab_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &kp TAB &kp TAB
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+
+        q_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &kp Q &kp Q
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+
+        w_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &kp W &kp W
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+
+        e_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &kp E &kp E
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+
+        pickup0_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+        pickup1_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+        pickup2_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+        pickup3_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+        pickup4_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
 
         tone0_layer { // Layer 1
             bindings = <
