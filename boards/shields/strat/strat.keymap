@@ -65,7 +65,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
+        // LAYER 0
+        default_layer {
             bindings = <
                 &mo L_TAB    &mo L_Q      &mo L_W      &mo L_E      &mo L_R      &mo L_T      &mo L_Y      &mo L_U      &mo L_I      &mo L_O      &mo L_P      &mo L_LBKT   &mo L_RBKT   &mo L_BSLH
                 &mo CAPS     &mo L_A      &mo L_S      &mo L_D      &mo L_F      &mo L_G      &mo L_H      &mo L_J      &mo L_K      &mo L_L      &mo L_SEMI   &mo L_SQT                 &mo L_ENTER
@@ -189,6 +190,7 @@
             >;
         };
 
+        // LAYER 10
         o_layer {
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -564,6 +566,7 @@
             >;
         };
 
+        // LAYER 50
         config_layer {
             bindings = <
                 &none &none &none &none &none &none &none &none &none &none &none &none &none &none
