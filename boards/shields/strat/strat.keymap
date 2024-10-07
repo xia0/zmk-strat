@@ -1,0 +1,81 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define DEFAULT    0
+#define L_NONE     1
+#define L_TONE1    2
+#define L_TONE2    3
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            bindings = <
+                &mo L_TAB    &kp L_Q      &kp L_W      &kp L_E      &kp L_R      &kp L_T      &kp L_Y      &kp L_U      &kp L_I      &kp L_O      &kp L_P      &kp L_LBKT   &kp L_RBKT   &kp L_BSLH
+                &mo CAPS     &kp L_A      &kp L_S      &kp L_D      &kp L_F      &kp L_G      &kp L_H      &kp L_J      &kp L_K      &kp L_L      &kp L_SEMI   &kp L_SQT                 &kp L_ENTER
+                &kp L_LSHFT                 &kp L_Z      &kp L_X      &kp L_C      &kp L_V      &kp L_B      &kp L_N      &kp L_M      &kp L_COMMA  &kp L_DOT    &kp L_SLASH               &kp L_RSHFT
+
+                &kp SPACE    &kp SPACE
+                &kp SPACE    &kp SPACE
+                &kp SPACE    &kp SPACE
+
+                 &kp LC(LALT)  &kp LCTRL  &none  &kp RALT  &kp RWIN
+
+                 &kp C_MUTE
+
+                 &kp LSHIFT &none &none &mo L_NONE
+            >;
+        };
+
+        none_layer { // Layer 1
+            bindings = <
+                &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+
+                &none &none
+                &none &none
+                &none &none
+
+                &none &none &none &none &none
+                &none
+                &none &none &none &none
+            >;
+        };
+
+        tone1_layer { // Layer 2
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+        tone2_layer { // Layer 3
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &trans &trans
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans
+            >;
+        };
+
+    };
+ };

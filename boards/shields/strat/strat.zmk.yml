@@ -1,0 +1,8 @@
+file_format: "1"
+id: strat
+name: strat
+type: shield
+url: http://www.goatse.cx
+requires: [pro_micro]
+features:
+  - keys
