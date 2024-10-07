@@ -252,8 +252,8 @@
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 
-                &kp CAPS &kp CAPS
                 &trans &trans
+                &kp CAPS &kp CAPS
                 &trans &trans
 
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -264,8 +264,8 @@
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 
-                &kp A &kp A
                 &trans &trans
+                &kp A &kp A
                 &trans &trans
 
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -276,8 +276,8 @@
             bindings = <
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 
-                &kp S &kp S
                 &trans &trans
+                &kp S &kp S
                 &trans &trans
 
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -286,134 +286,134 @@
 
         d_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp D &kp D
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp D &kp D
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         f_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp F &kp F
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp F &kp F
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         g_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp G &kp G
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp G &kp G
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         h_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp H &kp H
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp H &kp H
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         j_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp J &kp J
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp J &kp J
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         k_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp K &kp K
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp K &kp K
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         l_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp L &kp L
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp L &kp L
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         semi_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp SEMI &kp SEMI
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp SEMI &kp SEMI
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         sqt_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp SQT &kp SQT
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp SQT &kp SQT
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         enter_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp ENTER &kp ENTER
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &kp ENTER &kp ENTER
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         lshft_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp LSHFT &kp LSHFT
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp LSHFT &kp LSHFT
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         z_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp Z &kp Z
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp Z &kp Z
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         x_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp X &kp X
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp X &kp X
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         c_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp C &kp C
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp C &kp C
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         v_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp V &kp V
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp V &kp V
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         b_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp B &kp B
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp B &kp B
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         n_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp N &kp N
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp N &kp N
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         m_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp M &kp M
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp M &kp M
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         comma_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp COMMA &kp COMMA
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp COMMA &kp COMMA
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         dot_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp DOT &kp DOT
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp DOT &kp DOT
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         slash_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp SLASH &kp SLASH
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp SLASH &kp SLASH
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         rshft_layer {
             bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &kp RSHFT &kp RSHFT
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
+                &trans &trans &trans &trans &kp RSHFT &kp RSHFT
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans >;
         };
 
         pickup0_layer {
