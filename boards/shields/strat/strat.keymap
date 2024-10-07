@@ -3,17 +3,60 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT    0
-#define L_TONE0    1
-#define L_TONE1    2
-#define L_TONE2    3
-#define L_TONE3    4
-#define L_PU0      5
-#define L_PU1      6
-#define L_PU2      7
-#define L_PU3      8
-#define L_PU4      9
-#define L_TAB      10
 
+#define L_TAB     1
+#define L_Q       2
+#define L_W       3
+#define L_E       4
+#define L_R       5
+#define L_T       6
+#define L_Y       7
+#define L_U       8
+#define L_I       9
+#define L_O       10
+#define L_P       11
+#define L_LBKT    12
+#define L_RBKT    13
+#define L_BSLH    14
+
+#define L_CAPS    15
+#define L_A       16
+#define L_S       17
+#define L_D       18
+#define L_F       19
+#define L_G       20
+#define L_H       21
+#define L_J       22
+#define L_K       23
+#define L_L       24
+#define L_SEMI    25
+#define L_SQT     26
+#define L_ENTER   27
+
+#define L_LSHFT   28
+#define L_Z       29
+#define L_X       30
+#define L_C       31
+#define L_V       32
+#define L_B       33
+#define L_N       34
+#define L_M       35
+#define L_COMMA   36
+#define L_DOT     37
+#define L_SLASH   38
+#define L_RSHFT   39
+
+#define L_PU0     40
+#define L_PU1     41
+#define L_PU2     42
+#define L_PU3     43
+#define L_PU4     44
+#define L_TAB     45
+
+#define L_TONE0   46
+#define L_TONE1   47
+#define L_TONE2   48
+#define L_TONE3   49
 
 / {
     keymap {
@@ -76,6 +119,18 @@
                 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 
                 &kp E &kp E
+                &trans &trans
+                &trans &trans
+
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            >;
+        };
+
+        r_layer {
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+
+                &kp R &kp R
                 &trans &trans
                 &trans &trans
 
