@@ -567,7 +567,7 @@
             bindings = <
                 &none &none &none &none &none &none &none &none &none &none &none &none &none &none
                 &none &none &none &none &none &none &none &none &none &none &none &none &none
-                &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &to L_NORMAL
 
                 &bt BT_NXT &bt BT_PRV
                 &bt BT_NXT &bt BT_PRV
@@ -576,6 +576,22 @@
                 &none &none &none &none &none
                 &bt BT_CLR
                 &none &none &none &none
+            >;
+        };
+
+        normal_layer {
+            bindings = <
+                &kp L_TAB    &kp L_Q      &kp L_W      &kp L_E      &kp L_R      &kp L_T      &kp L_Y      &kp L_U      &kp L_I      &kp L_O      &kp L_P      &kp L_LBKT   &kp L_RBKT   &kp L_BSLH
+                &kp CAPS     &kp L_A      &kp L_S      &kp L_D      &kp L_F      &kp L_G      &kp L_H      &kp L_J      &kp L_K      &kp L_L      &kp L_SEMI   &kp L_SQT                 &kp L_ENTER
+                &kp L_LSHFT               &kp L_Z      &kp L_X      &kp L_C      &kp L_V      &kp L_B      &kp L_N      &kp L_M      &kp L_COMMA  &kp L_DOT    &kp L_SLASH               &trans
+
+                &kp SPACE    &kp SPACE
+                &kp SPACE    &kp SPACE
+                &kp SPACE    &kp SPACE
+
+                &trans &trans &trans &trans &trans
+                &trans
+                &trans &trans &trans &trans &trans
             >;
         };
 
